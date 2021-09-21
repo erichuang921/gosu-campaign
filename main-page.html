@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/event-details-3.css" />
+    <link rel="stylesheet" type="text/css" href="css/main-page.css" />
+    <link rel="stylesheet" type="text/css" href="css/main-page-menu.css" />
+    <link rel="stylesheet" type="text/css" href="css/frame-1.css" />
+    <link rel="stylesheet" type="text/css" href="css/event-details.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: #fffff0">
+    <input type="hidden" id="anPageName" name="page" value="main-page" />
+    <div class="container-center-horizontal">
+      <div class="main-page screen">
+        <div class="overlap-group1">
+          <img class="rectangle-1" src="img/rectangle-1@2x.svg" />
+          <img class="avatar-1" src="img/avatar-1@2x.svg" />
+          <img class="x2021" src="img/2021-----@2x.svg" />
+          <a href="javascript:ShowOverlay('main-page-menu', 'animate-appear');"
+            ><img class="menu-hamburger" src="img/menu---hamburger@2x.svg" />
+          </a>
+        </div>
+        <div class="overlap-group">
+          <img class="group-33327" src="img/group-33327@2x.svg" />
+          <img class="group-33328" src="img/group-33328@2x.svg" />
+          <img class="group-33652" src="img/group-33652@2x.svg" />
+          <a href="javascript:ShowOverlay('event-details-3', 'animate-appear');"
+            ><img class="button-color" src="img/button--color@2x.svg" /> </a
+          ><a href="javascript:ShowOverlay('event-details', 'animate-appear');"
+            ><img class="button-color-1" src="img/button--color@2x.svg" /> </a
+          ><a href="javascript:ShowOverlay('frame-1', 'animate-appear');"
+            ><img class="button-color-2" src="img/button--color-2@2x.svg" /> </a
+          ><img class="group-33658" src="img/group-33658@2x.svg" />
+          <img class="group-33659" src="img/group-33659@2x.svg" />
+        </div>
+      </div>
+    </div>
+    <div id="overlay-frame-1" class="overlay" style="min-height: 2000px">
+      <div class="container-center-horizontal">
+        <div class="frame-1 screen">
+          <div class="frame-1-1">
+            <div class="group-33596"></div>
+            <div class="group-33597">
+              <div class="title valign-text-middle">活動尚未開始，敬請期待</div>
+              <p class="description valign-text-middle">本活動將於 10 月 10 日開始敬請期待！</p>
+            </div>
+            <a href="javascript:HideOverlay('frame-1', 'animate-disappear');">
+              <div class="button-color">
+                <div class="overlap-group"><div class="continue valign-text-middle">了解，關閉此頁面</div></div>
+              </div></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var overlay_id = "overlay-frame-1";
+      document.getElementById(overlay_id).addEventListener(
+        "click",
+        function (event) {
+          var overlay_id = "overlay-frame-1";
+          var e = event || window.event;
+          var overlayElement = document.getElementById(overlay_id);
+          var overlayContainer = overlayElement.getElementsByClassName("frame-1");
+          var clickedDiv = e.toElement || e.target;
+          var dismissButton = clickedDiv.parentElement.id == overlay_id;
+          var clickOutsideOverlay = false;
+          if (overlayContainer.length > 0) {
+            clickOutsideOverlay = !overlayContainer[0].contains(clickedDiv) || overlayContainer[0] == clickedDiv;
+          }
+          if (dismissButton || clickOutsideOverlay) {
+            HideOverlay("frame-1", "animate-disappear");
+          }
+        },
+        false
+      );
+    </script>
+    <div id="overlay-main-page-menu" class="overlay" style="min-height: 2000px">
+      <div class="container-center-horizontal">
+        <div class="main-page-menu screen">
+          <div class="main-page-menu-1">
+            <div class="overlap-group">
+              <div class="overlap-group1">
+                <img class="media-playcircleoutline" src="img/media---play-circle-outline@2x.svg" />
+                <div class="text-3 valign-text-middle roboto-normal-black-24px">立即參加活動（前往選購）</div>
+              </div>
+              <div class="overlap-group3">
+                <div class="text-1 valign-text-middle roboto-normal-black-24px">了解活動詳情</div>
+                <img class="attention-infocircleoutline" src="img/attention---info-circle-outline@2x.svg" />
+              </div>
+              <div class="overlap-group2">
+                <img class="communication-messagewriting" src="img/communication---message-writing@2x.svg" />
+                <div class="text-2 valign-text-middle roboto-normal-black-24px">加入 GOSU 的 Line@ 官方帳號</div>
+              </div>
+              <div class="flex-row">
+                <img class="avatar-1" src="img/avatar-1@2x.png" />
+                <div class="address valign-text-middle roboto-normal-black-24px">2021 中秋活動</div>
+                <a href="javascript:HideOverlay('main-page-menu', 'animate-disappear');"
+                  ><img class="menu-closesmall" src="img/menu---close-small@2x.svg" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var overlay_id = "overlay-main-page-menu";
+      document.getElementById(overlay_id).addEventListener(
+        "click",
+        function (event) {
+          var overlay_id = "overlay-main-page-menu";
+          var e = event || window.event;
+          var overlayElement = document.getElementById(overlay_id);
+          var overlayContainer = overlayElement.getElementsByClassName("main-page-menu");
+          var clickedDiv = e.toElement || e.target;
+          var dismissButton = clickedDiv.parentElement.id == overlay_id;
+          var clickOutsideOverlay = false;
+          if (overlayContainer.length > 0) {
+            clickOutsideOverlay = !overlayContainer[0].contains(clickedDiv) || overlayContainer[0] == clickedDiv;
+          }
+          if (dismissButton || clickOutsideOverlay) {
+            HideOverlay("main-page-menu", "animate-disappear");
+          }
+        },
+        false
+      );
+    </script>
+    <div id="overlay-event-details-3" class="overlay" style="min-height: 2000px">
+      <div class="container-center-horizontal">
+        <div class="event-details-3 screen">
+          <div class="event-details">
+            <div class="overlap-group3">
+              <img class="image-77" src="img/image-77@2x.png" />
+              <a href="javascript:HideOverlay('event-details-3', 'animate-disappear');"
+                ><img class="menu-closebig" src="img/menu---close-big@2x.svg" />
+              </a>
+              <h1 class="hello-ashfak akronim-normal-blue-36px">活動詳細資訊</h1>
+              <div class="group-18163">
+                <div class="overlap-group2">
+                  <div class="overlap-group">
+                    <div class="on-live valign-text-middle aclonica-normal-white-12px">Invite</div>
+                  </div>
+                  <div class="x41-madison-ave-new abeezee-normal-fiord-13px">免費獲得 200 元折價券</div>
+                </div>
+              </div>
+              <img class="x77m-l-ihf8-tw-1" src="img/77mlihf8tw-1@2x.png" />
+              <div class="international-gala-m acme-normal-ebony-18px">立即邀請好友</div>
+            </div>
+            <div class="text-4 allerta-normal-ebony-24px">虛擬主機全系列 2 折</div>
+            <div class="group-33494">
+              <div class="date">
+                <div class="overlap-group-1">
+                  <img class="fill-1" src="img/fill-1@2x.svg" />
+                  <img class="fill-4" src="img/fill-4@2x.svg" />
+                  <img class="fill-6" src="img/fill-6@2x.svg" />
+                  <img class="fill-8" src="img/fill-8@2x.svg" />
+                </div>
+              </div>
+              <div class="group-18188">
+                <p class="believer valign-text-middle abel-normal-ebony-16px">2021 年 09 月 30 日</p>
+                <div class="major-lazer-showtek valign-text-middle aclonica-normal-storm-gray-12px">24 : 00 截止</div>
+              </div>
+            </div>
+            <div class="group-18194">
+              <div class="popular valign-text-middle akronim-normal-ebony-18px">關於本活動</div>
+              <p class="the-development-of-p aclonica-normal-ebony-16px">
+                ・本活動所購買之優惠與商品終身有效<br />・本活動係由 GOSU 故事科技 主辦且保有最終修改、終止、解釋
+                之權益<br />・如用戶違反使用規定，故事科技 得終止該用戶之服務。
+              </p>
+            </div>
+            <div class="overlap-group1">
+              <div class="overlap-group-2">
+                <div class="group-4"><img class="shape" src="img/shape@2x.svg" /></div>
+              </div>
+              <div class="continue valign-text-middle akronim-normal-white-16px">立即前往購買（申請）</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var overlay_id = "overlay-event-details-3";
+      document.getElementById(overlay_id).addEventListener(
+        "click",
+        function (event) {
+          var overlay_id = "overlay-event-details-3";
+          var e = event || window.event;
+          var overlayElement = document.getElementById(overlay_id);
+          var overlayContainer = overlayElement.getElementsByClassName("event-details-3");
+          var clickedDiv = e.toElement || e.target;
+          var dismissButton = clickedDiv.parentElement.id == overlay_id;
+          var clickOutsideOverlay = false;
+          if (overlayContainer.length > 0) {
+            clickOutsideOverlay = !overlayContainer[0].contains(clickedDiv) || overlayContainer[0] == clickedDiv;
+          }
+          if (dismissButton || clickOutsideOverlay) {
+            HideOverlay("event-details-3", "animate-disappear");
+          }
+        },
+        false
+      );
+    </script>
+    <div id="overlay-event-details" class="overlay" style="min-height: 2000px">
+      <div class="container-center-horizontal">
+        <div class="event-details screen">
+          <div class="event-details-1">
+            <div class="overlap-group3">
+              <img class="image-77" src="img/image-77@2x.png" />
+              <a href="javascript:HideOverlay('event-details', 'animate-disappear');"
+                ><img class="menu-closebig" src="img/menu---close-big-1@2x.svg" />
+              </a>
+              <div class="hello-ashfak akronim-normal-blue-36px">活動詳細資訊</div>
+              <div class="overlap-group2">
+                <div class="overlap-group">
+                  <div class="on-live valign-text-middle aclonica-normal-white-12px">Invite</div>
+                </div>
+                <div class="x41-madison-ave-new abeezee-normal-fiord-13px">免費獲得 200 元折價券</div>
+              </div>
+              <img class="x77m-l-ihf8-tw-1" src="img/77mlihf8tw-1@2x.png" />
+              <div class="international-gala-m acme-normal-ebony-18px">立即邀請好友</div>
+            </div>
+            <div class="text-5 allerta-normal-ebony-24px">無限主機買 1 送 4</div>
+            <div class="group-33494">
+              <div class="date">
+                <div class="overlap-group-1">
+                  <img class="fill-1" src="img/fill-1@2x.svg" />
+                  <img class="fill-4" src="img/fill-4@2x.svg" />
+                  <img class="fill-6" src="img/fill-6@2x.svg" />
+                  <img class="fill-8" src="img/fill-8@2x.svg" />
+                </div>
+              </div>
+              <div class="group-18188">
+                <p class="believer valign-text-middle abel-normal-ebony-16px">2021 年 09 月 30 日</p>
+                <div class="major-lazer-showtek valign-text-middle aclonica-normal-storm-gray-12px">24 : 00 截止</div>
+              </div>
+            </div>
+            <div class="group-18194">
+              <div class="popular valign-text-middle akronim-normal-ebony-18px">關於本活動</div>
+              <p class="the-development-of-p aclonica-normal-ebony-16px">
+                ・本活動所購買之優惠與商品終身有效<br />・本活動係由 GOSU 故事科技 主辦且保有最終修改、終止、解釋
+                之權益<br />・如用戶違反使用規定，故事科技 得終止該用戶之服務。
+              </p>
+            </div>
+            <div class="overlap-group1">
+              <div class="overlap-group-2">
+                <div class="group-4"><img class="shape" src="img/shape@2x.svg" /></div>
+              </div>
+              <div class="continue valign-text-middle akronim-normal-white-16px">立即前往購買（申請）</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var overlay_id = "overlay-event-details";
+      document.getElementById(overlay_id).addEventListener(
+        "click",
+        function (event) {
+          var overlay_id = "overlay-event-details";
+          var e = event || window.event;
+          var overlayElement = document.getElementById(overlay_id);
+          var overlayContainer = overlayElement.getElementsByClassName("event-details");
+          var clickedDiv = e.toElement || e.target;
+          var dismissButton = clickedDiv.parentElement.id == overlay_id;
+          var clickOutsideOverlay = false;
+          if (overlayContainer.length > 0) {
+            clickOutsideOverlay = !overlayContainer[0].contains(clickedDiv) || overlayContainer[0] == clickedDiv;
+          }
+          if (dismissButton || clickOutsideOverlay) {
+            HideOverlay("event-details", "animate-disappear");
+          }
+        },
+        false
+      );
+    </script>
+    <script>
+      ShowOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") == -1) {
+          document.getElementById(overlayName).className =
+            document.getElementById(overlayName).className + " " + animationName;
+        }
+        if (window.loadAsyncSrc != undefined) {
+          loadAsyncSrc();
+        }
+      };
+      HideOverlay = function (overlayName, animationName) {
+        overlayName = "overlay-" + overlayName;
+        var cssClasses = document.getElementById(overlayName).className.split(" ");
+        var last = cssClasses.slice(-1)[0];
+        if (last.lastIndexOf("animate") != -1) {
+          cssClasses.splice(-1);
+          cssClasses.push(animationName);
+          document.getElementById(overlayName).className = cssClasses.join(" ");
+
+          cssClasses.splice(-1);
+          setTimeout(function () {
+            document.getElementById(overlayName).className = cssClasses.join(" ");
+          }, 1100);
+        }
+        var vids = document.getElementsByTagName("video");
+        if (vids) {
+          for (var i = 0; i < vids.length; i++) {
+            var video = vids.item(i);
+            video.pause();
+          }
+        }
+      };
+    </script>
+  </body>
+</html>

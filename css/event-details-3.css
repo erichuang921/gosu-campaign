@@ -1,0 +1,300 @@
+/* screen - event-details-3 */
+
+.event-details-3 {
+  align-items: flex-start;
+  background-color: var(--black-2);
+  display: flex;
+  height: 2000px;
+  width: 414px;
+}
+
+#overlay-event-details-3 {
+  background-color: var(--black-2);
+}
+
+.overlay .event-details-3 {
+  background-color: #00000000;
+}
+
+.event-details-3 .event-details {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 751px;
+  left: calc(50vw - 207.0px);
+  overflow: hidden;
+  position: relative;
+  top: calc(100vh - 751px);
+  width: 414px;
+}
+
+.event-details-3 .overlap-group3 {
+  height: 274px;
+  margin-left: 2.0px;
+  position: relative;
+  width: 414px;
+}
+
+.event-details-3 .image-77 {
+  height: 244px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 414px;
+}
+
+.event-details-3 .menu-closebig {
+  cursor: pointer;
+  height: 49px;
+  left: 353px;
+  position: absolute;
+  top: 20px;
+  width: 49px;
+}
+
+.event-details-3 .hello-ashfak {
+  left: 21px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 30px;
+  width: 235px;
+}
+
+.event-details-3 .group-18163 {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  left: 59px;
+  min-width: 295px;
+  position: absolute;
+  top: 214px;
+}
+
+.event-details-3 .overlap-group2 {
+  -webkit-backdrop-filter: blur(21.746253967285156px) brightness(100%);
+  backdrop-filter: blur(21.746253967285156px) brightness(100%);
+  background-color: var(--coconut);
+  border-radius: 30px;
+  box-shadow: 0px 20px 20px #5959591a;
+  height: 62px;
+  margin-top: -1px;
+  position: relative;
+  width: 297px;
+}
+
+.event-details-3 .overlap-group {
+  -webkit-backdrop-filter: blur(27.182817459106445px) brightness(100%);
+  align-items: center;
+  backdrop-filter: blur(27.182817459106445px) brightness(100%);
+  background-color: var(--blueberry);
+  border-radius: 7px;
+  box-shadow: 0px 8px 20px #4ad2e415;
+  display: flex;
+  height: 30px;
+  justify-content: flex-end;
+  left: 214px;
+  min-width: 69px;
+  padding: 0 15px;
+  position: absolute;
+  top: 16px;
+}
+
+.event-details-3 .on-live {
+  height: 14px;
+  letter-spacing: 0;
+  min-width: 38px;
+  text-align: center;
+}
+
+.event-details-3 .x41-madison-ave-new {
+  left: 68px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 38px;
+  width: 164px;
+}
+
+.event-details-3 .x77m-l-ihf8-tw-1 {
+  height: 34px;
+  left: 72px;
+  object-fit: cover;
+  position: absolute;
+  top: 225px;
+  width: 71px;
+}
+
+.event-details-3 .international-gala-m {
+  left: 151px;
+  letter-spacing: 0;
+  line-height: 34px;
+  position: absolute;
+  top: 218px;
+  width: 127px;
+}
+
+.event-details-3 .text-4 {
+  letter-spacing: 0;
+  margin-right: 47.0px;
+  margin-top: 19px;
+  min-height: 31px;
+  width: 315px;
+}
+
+.event-details-3 .group-33494 {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  height: 53px;
+  margin-left: 20px;
+  margin-top: 19px;
+  min-width: 205px;
+}
+
+.event-details-3 .date {
+  align-items: flex-start;
+  align-self: flex-end;
+  background-color: var(--blueberry-2);
+  border-radius: 12px;
+  display: flex;
+  height: 48px;
+  min-width: 48px;
+  padding: 10.9px 12.0px;
+}
+
+.event-details-3 .overlap-group-1 {
+  height: 26px;
+  position: relative;
+  width: 24px;
+}
+
+.event-details-3 .fill-1 {
+  height: 8px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 24px;
+}
+
+.event-details-3 .fill-4 {
+  height: 7px;
+  left: 15px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.event-details-3 .fill-6 {
+  height: 7px;
+  left: 6px;
+  position: absolute;
+  top: 0;
+  width: 3px;
+}
+
+.event-details-3 .fill-8 {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 9px;
+  width: 24px;
+}
+
+.event-details-3 .group-18188 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+  min-height: 50px;
+  width: 136px;
+}
+
+.event-details-3 .believer {
+  height: 34px;
+  letter-spacing: 0;
+  line-height: 34px;
+  opacity: 0.84;
+  white-space: nowrap;
+}
+
+.event-details-3 .major-lazer-showtek {
+  height: 14px;
+  letter-spacing: 0;
+  margin-top: 2px;
+}
+
+.event-details-3 .group-18194 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 35.0px;
+  margin-top: 21px;
+  min-height: 212px;
+  width: 339px;
+}
+
+.event-details-3 .popular {
+  height: 34px;
+  letter-spacing: 0;
+  line-height: 34px;
+  margin-left: 2.08px;
+  opacity: 0.84;
+  white-space: nowrap;
+}
+
+.event-details-3 .the-development-of-p {
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: 38px;
+  min-height: 140px;
+  width: 337px;
+}
+
+.event-details-3 .overlap-group1 {
+  height: 128px;
+  margin-right: 1.0px;
+  margin-top: 13px;
+  position: relative;
+  width: 341px;
+}
+
+.event-details-3 .overlap-group-2 {
+  align-items: flex-start;
+  background-image: url(../img/rectangle@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 128px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 341px;
+  padding: 39px 49px;
+  position: absolute;
+  top: 0;
+}
+
+.event-details-3 .group-4 {
+  align-items: flex-start;
+  background-color: var(--royal-blue);
+  border-radius: 15px;
+  display: flex;
+  height: 30px;
+  min-width: 30px;
+  padding: 8px;
+}
+
+.event-details-3 .shape {
+  height: 13px;
+  width: 13px;
+}
+
+.event-details-3 .continue {
+  height: 18px;
+  left: 86px;
+  letter-spacing: 1.00px;
+  position: absolute;
+  text-align: center;
+  top: 45px;
+}

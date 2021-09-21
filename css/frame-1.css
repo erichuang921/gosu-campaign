@@ -1,0 +1,111 @@
+/* screen - frame-1 */
+
+.frame-1 {
+  align-items: flex-start;
+  background-color: var(--black-2);
+  display: flex;
+  height: 2000px;
+  width: 414px;
+}
+
+#overlay-frame-1 {
+  background-color: var(--black-2);
+}
+
+.overlay .frame-1 {
+  background-color: #00000000;
+}
+
+.frame-1 .frame-1-1 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  left: calc(50vw - 150.0px);
+  overflow: hidden;
+  padding: 10px 4px;
+  position: relative;
+  top: calc(50vh - 150.0px);
+  width: 300px;
+}
+
+.frame-1 .group-33596 {
+  background-color: #ebf5fc80;
+  background-image: url(../img/mask-group@2x.svg);
+  background-size: 100% 100%;
+  border-radius: 56.5px;
+  height: 113px;
+  margin-right: 1.0px;
+  margin-top: 5px;
+  width: 113px;
+}
+
+.frame-1 .group-33597 {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-top: 22px;
+  min-height: 66px;
+  width: 288px;
+}
+
+.frame-1 .title {
+  color: var(--ebony);
+  font-family: var(--font-family-abel);
+  font-size: var(--font-size-xl);
+  height: 31px;
+  letter-spacing: 0;
+  margin-right: 2.0px;
+  min-width: 266px;
+  text-align: center;
+}
+
+.frame-1 .description {
+  color: var(--storm-gray);
+  font-family: var(--font-family-aclonica);
+  font-size: var(--font-size-m);
+  height: 30px;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-right: 2.0px;
+  margin-top: 5px;
+  text-align: center;
+  white-space: nowrap;
+  width: 286px;
+}
+
+.frame-1 .button-color {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 41px;
+  justify-content: center;
+  margin-right: 1.0px;
+  margin-top: 33px;
+  min-width: 271px;
+}
+
+.frame-1 .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/group-18177@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 111px;
+  justify-content: flex-end;
+  margin-top: -25px;
+  min-width: 341px;
+  padding: 37px 89px;
+}
+
+.frame-1 .continue {
+  color: var(--white);
+  font-family: var(--font-family-lexend_peta);
+  font-size: var(--font-size-l);
+  height: 16px;
+  letter-spacing: 1.00px;
+  text-align: center;
+  width: 160px;
+}

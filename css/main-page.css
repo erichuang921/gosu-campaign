@@ -1,0 +1,126 @@
+/* screen - main-page */
+
+.main-page {
+  align-items: flex-start;
+  background-color: #fffff0;
+  display: flex;
+  flex-direction: column;
+  height: 2000px;
+  overflow: hidden;
+  width: 414px;
+}
+
+.main-page .overlap-group1 {
+  height: 118px;
+  position: relative;
+  width: 414px;
+}
+
+.main-page .rectangle-1 {
+  height: 118px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 414px;
+}
+
+.main-page .avatar-1 {
+  height: 70px;
+  left: 26px;
+  object-fit: cover;
+  position: absolute;
+  top: 36px;
+  width: 70px;
+}
+
+.main-page .x2021 {
+  height: 23px;
+  left: 130px;
+  position: absolute;
+  top: 60px;
+  width: 154px;
+}
+
+.main-page .menu-hamburger {
+  cursor: pointer;
+  height: 50px;
+  left: 353px;
+  position: absolute;
+  top: 51px;
+  width: 50px;
+}
+
+.main-page .overlap-group {
+  height: 1707px;
+  margin-left: -13px;
+  margin-top: 18px;
+  position: relative;
+  width: 440px;
+}
+
+.main-page .group-33327 {
+  height: 471px;
+  left: 8px;
+  position: absolute;
+  top: 0;
+  width: 422px;
+}
+
+.main-page .group-33328 {
+  height: 471px;
+  left: 18px;
+  position: absolute;
+  top: 618px;
+  width: 422px;
+}
+
+.main-page .group-33652 {
+  height: 471px;
+  left: 9px;
+  position: absolute;
+  top: 1236px;
+  width: 422px;
+}
+
+.main-page .button-color {
+  cursor: pointer;
+  height: 128px;
+  left: 48px;
+  position: absolute;
+  top: 331px;
+  width: 341px;
+}
+
+.main-page .button-color-1 {
+  cursor: pointer;
+  height: 128px;
+  left: 58px;
+  position: absolute;
+  top: 949px;
+  width: 341px;
+}
+
+.main-page .button-color-2 {
+  cursor: pointer;
+  height: 128px;
+  left: 49px;
+  position: absolute;
+  top: 1567px;
+  width: 341px;
+}
+
+.main-page .group-33658 {
+  height: 223px;
+  left: 0;
+  position: absolute;
+  top: 428px;
+  width: 439px;
+}
+
+.main-page .group-33659 {
+  height: 223px;
+  left: 0;
+  position: absolute;
+  top: 1042px;
+  width: 439px;
+}
